@@ -1,0 +1,114 @@
+/*基本的なスタイル*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    background-color:#f6e3de;
+    color:#333;
+    line-height:1.6rem;
+}
+
+/*ヘッダーのスタイル*/
+header{
+    background-color: #a19aa0;
+    color:white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rbga(0,0,0,0.1);
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/*メインコンテンツのスタイル*/
+main{
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/*セクション共通のスタイル*/
+section{
+background-color:#ffffff;
+border-radius: 8px;
+padding: 25px 30px;
+margin-bottom: 25px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+border:1px solid #e0e0e0
+}
+
+section h2{
+    background-color: #e0e0e0;
+    color: #4a4a4a;
+    padding: 10px 15px;
+    margin: -25px -30px 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/*プロフィールのセクションのスタイル*/
+.profile-section{
+    text-align: center;
+}
+
+.profile-image{
+    width: 150px;
+    height: 150px;
+    background-color: azure;
+    border-radius: 50px;
+    margin: 50px auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 3px solid #4a4a4a;
+}
+
+.placeholder-image{
+    width: 80%;
+    height: 80%;
+    background: linear-gradient(to bottom,#d2f2ff 0%,#a0daff 100%);
+    border-radius: 50%;
+    position: relative;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.01);
+}
+
+/*作品セクションのスタイル*/
+.works-section ul{
+    list-style: none;
+    padding:0;
+}
+
+.works-section li{
+    background-color: #ffffff;
+    border: 1px solid #f0e0f0;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+.works-section li h3{
+    color: #6a6a6a;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+}
+
+.works-section li p{
+    color: #777;
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+
+/*フッターのスタイル*/
+footer{
+    background-color: #d1b4d1;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
