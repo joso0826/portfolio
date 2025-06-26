@@ -1,2 +1,2 @@
 const changeColorBtn =document.getElementById('changeColorBtn');
-changeColorBtn.addEventListener('click',() =>{document.body.style.backgroundColor = '#E0F5FF';});
+changeColorBtn.addEventListener('click',() =>{document.body.classList.toggle("change-color");'#E0F5FF';});
