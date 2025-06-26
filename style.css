@@ -41,8 +41,8 @@ section{
 section h2{
     background-color: #e0e0e0;
     color: #4a4a4a;
-    padding: 10px 15px;
-    margin: -25px -30px 20px;
+    padding: 10px 0;
+    margin: 25px 0 20px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     text-align: center;
@@ -59,7 +59,7 @@ section h2{
     height: 150px;
     background-color: azure;
     border-radius: 50px;
-    margin: 50px auto 20px;
+    margin: 50px auto 50px;
     display: flex;
     justify-content: center;
     align-items: center;
