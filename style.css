@@ -30,12 +30,12 @@ main{
 
 /*セクション共通のスタイル*/
 section{
-background-color:#ffffff;
-border-radius: 8px;
-padding: 25px 30px;
-margin-bottom: 25px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-border:1px solid #e0e0e0
+    background-color:#ffffff;
+    border-radius: 8px;
+    padding: 25px 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    border:1px solid #e0e0e0
 }
 
 section h2{
@@ -111,4 +111,30 @@ footer{
     text-align: center;
     padding: 15px 0;
     margin-top: 30px;
+}
+.change-color {
+  background-color: #E0F5FF;
+}
+
+@media screen and (max-width:767px) {
+
+header h1{
+    font-size: 2.0rem;
+}
+
+html{
+  font-size: 100%;
+}
+
+.sp_only {
+  display: block;
+}
+
+.footer {
+  justify-content: center;
+}
+
+.footer_copyright {
+  display: none;
+}
 }
